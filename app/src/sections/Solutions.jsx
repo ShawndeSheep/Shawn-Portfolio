@@ -74,14 +74,17 @@ const solutions = [
 
 const Solutions = () => {
   return (
-    <section className="bg-black py-24 px-6 relative overflow-hidden">
+    <section
+      id="solutions"
+      className="bg-black py-24 px-6 relative overflow-hidden"
+    >
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left Column: Text Content */}
           <div className="sticky top-32">
-            <h4 className="text-white text-3xl md:text-5xl font-bold mb-8 leading-tight">
-              Things I do for you that{" "}
-              <span className="text-white/50 italic font-serif mb-56">
+            <h4 className="text-white text-3xl md:text-5xl font-bold mb-8 leading-normal">
+              Things I can offer to{" "}
+              <span className="text-white/50 italic amsterdam-font mb-56">
                 make your business better.
               </span>
             </h4>
@@ -101,7 +104,10 @@ const Solutions = () => {
                   <h3 className="text-white group-hover:text-black text-2xl font-bold mb-3 transition-colors duration-300">
                     {item.title}
                   </h3>
-                  <p className="text-white/50 group-hover:text-black/70 leading-relaxed text-sm transition-colors duration-300">
+                  <p
+                    className="text-white/50 group-hover:text-black/70 leading-relaxed text-sm transition-colors duration-300"
+                    style={{ fontFamily: "Inter, sans-serif" }}
+                  >
                     {item.description}
                   </p>
                 </div>

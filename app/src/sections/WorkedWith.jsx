@@ -20,6 +20,7 @@ const clients = [
   { name: "Google", file: "google.png" },
   { name: "MODCUS AI", file: "modcus.png" },
   { name: "GOJEK", file: "gojek.png" },
+  { name: "RS UNAIR", file: "unair.png" },
 ];
 
 const WorkedWith = () => {

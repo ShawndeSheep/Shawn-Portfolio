@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Amsterdam";
+  src: url("./fonts/Amsterdam.ttf") format("truetype");
+}
+
+.amsterdam-font {
+  font-family: "Amsterdam", sans-serif;
+}

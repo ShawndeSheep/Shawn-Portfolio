@@ -44,7 +44,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 text-lg tracking-wide pointer-events-auto">
-          {["About Me", "Projects", "Contact"].map((item) => (
+          {["Solutions", "About Me", "Projects", "Contact"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase().replace(" ", "")}`}
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div
           className={`fixed inset-0 bg-black text-white flex flex-col justify-center items-center gap-8 text-2xl transition-all duration-500 md:hidden z-40 ${isOpen ? "opacity-100 visible pointer-events-auto" : "opacity-0 invisible pointer-events-none"}`}
         >
-          {["About Me", "Projects", "Contact"].map((item) => (
+          {["Solutions", "About Me", "Projects", "Contact"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase().replace(" ", "")}`}
