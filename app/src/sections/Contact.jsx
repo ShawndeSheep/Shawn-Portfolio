@@ -16,11 +16,11 @@ const Contact = () => {
         >
           {/* Content Container */}
           <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
-            <h2 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight tracking-tight">
-              Let’s Turn Your Great Visions Into Reality.
+            <h2 className="text-white text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight tracking-tight">
+              Let's Turn Your Great Visions Into Reality.
             </h2>
 
-            <p className="text-white/90 text-lg md:text-xl font-light mb-12 max-w-2xl">
+            <p className="text-white/90 text-sm sm:text-lg md:text-xl font-light mb-12 max-w-2xl">
               Ready to discuss opportunities further? Feel Free to Reach Out
             </p>
 
@@ -28,7 +28,7 @@ const Contact = () => {
               {/* Email Button */}
               <a
                 href="mailto:shawnforbusiness01@gmail.com"
-                className="px-8 py-4 bg-white text-black rounded-full font-semibold text-lg hover:scale-105 transition-transform duration-300 flex items-center justify-center gap-2 min-w-[160px]"
+                className="px-4 py-3 sm:px-8 sm:py-4 bg-white text-black rounded-full font-semibold text-xs sm:text-sm md:text-lg hover:scale-105 transition-transform duration-300 flex items-center justify-center gap-2 min-w-0 sm:min-w-[160px]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ const Contact = () => {
                 href="https://www.instagram.com/daviez_shawn/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full font-semibold text-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 min-w-[160px]"
+                className="px-4 py-3 sm:px-8 sm:py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full font-semibold text-xs sm:text-sm md:text-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 min-w-0 sm:min-w-[160px]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

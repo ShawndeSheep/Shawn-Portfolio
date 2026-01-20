@@ -24,7 +24,7 @@ const About = () => {
                 Master's student specializing in
                 <span className="font-medium font-semibold">
                   {" "}
-                  Artificial Intelligence and software development.
+                  Artificial Intelligence and Software Development.
                 </span>
               </p>
               <p>

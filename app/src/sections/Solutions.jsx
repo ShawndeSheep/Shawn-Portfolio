@@ -81,7 +81,7 @@ const Solutions = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left Column: Text Content */}
-          <div className="sticky top-32">
+          <div className="sticky top-32 mb-10 lg:mb-0">
             <h4 className="text-white text-3xl md:text-5xl font-bold mb-8 leading-normal">
               Things I can offer to{" "}
               <span className="text-white/50 italic amsterdam-font mb-56">

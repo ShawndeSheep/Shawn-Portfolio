@@ -47,7 +47,7 @@ const Hero = () => {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20 pb-10 px-4 mt- -mb-2"
+      className="relative min-h-screen mt-10 flex flex-col items-center justify-center overflow-hidden pt-20 pb-10 px-4 -mb-40 md:-mb-20 lg:-mb-10"
     >
       <p
         className="text-[max(1.2vw,18px)] mb-2 italic"

@@ -37,7 +37,7 @@ const Projects = () => {
     <section id="projects" className="bg-black py-24 px-4 md:px-8">
       <div className="container mx-auto flex flex-col items-center">
         {/* Video Showcase Container */}
-        <div className="w-full max-w-7xl relative rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_100px_rgba(192,132,252,0.5)] group aspect-[16/5]">
+        <div className="w-full max-w-7xl relative rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_100px_rgba(192,132,252,0.5)] group aspect-16/10 md:aspect-16/5">
           <video
             src={projectShowcase}
             autoPlay
