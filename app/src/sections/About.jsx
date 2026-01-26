@@ -20,18 +20,18 @@ const About = () => {
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               <p>
-                Shawn Davies is a fresh graduate in Informatics and a current
-                Master's student specializing in
+                Shawn Davies is currently pursuing a Master's degree in
+                Informatics with a specialization in
                 <span className="font-medium font-semibold">
                   {" "}
                   Artificial Intelligence and Software Development.
                 </span>
               </p>
               <p>
-                With expertise in building robust applications and implementing
-                machine learning models, he is a proactive contributor to
-                innovative projects, always focused on continuous learning and
-                professional growth.
+                With expertise and experience in building robust applications
+                and implementing machine learning models, he is a proactive
+                contributor to innovative projects, always focused on continuous
+                learning and professional growth.
               </p>
               <p>
                 From full-stack development to AI-driven solutions, Shawn
