@@ -44,7 +44,7 @@ const Contact = () => {
 
               {/* Instagram Button */}
               <a
-                href="https://www.instagram.com/daviez_shawn/"
+                href="https://www.instagram.com/shawn_dvs/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-3 sm:px-8 sm:py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full font-semibold text-xs sm:text-sm md:text-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 min-w-0 sm:min-w-[160px]"
@@ -61,7 +61,7 @@ const Contact = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                daviez_shawn
+                shawn_dvs
               </a>
             </div>
           </div>
